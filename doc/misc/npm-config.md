@@ -631,7 +631,7 @@ The node version to use when checking a package's `engines` map.
 ### offline
 
 * Default: false
-* Type: Boolea
+* Type: Boolean
 
 Force offline mode: no network requests will be done during install. To allow
 the CLI to fill in missing cache data, see `--prefer-offline`.
@@ -688,6 +688,14 @@ If true, staleness checks for cached data will be bypassed, but missing data
 will be requested from the server. To force full offline mode, use `--offline`.
 
 This option is effectively equivalent to `--cache-min=9999999`.
+
+### prefer-online
+
+* Default: false
+* Type: Boolean
+
+If true, staleness checks for cached data will be forced, making the CLI look
+for updates immediately even for fresh package data.
 
 ### prefix
 
