@@ -39,6 +39,7 @@
     "archy": "~1.0.0",
     "asap": "~2.0.5",
     "bluebird": "~3.5.0",
+    "cacache": "~7.0.2",
     "call-limit": "~1.1.0",
     "chownr": "~1.0.1",
     "cmd-shim": "~2.0.2",
