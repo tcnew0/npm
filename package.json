@@ -86,6 +86,7 @@
     "osenv": "~0.1.4",
     "pacote": "~2.0.0",
     "path-is-inside": "~1.0.2",
+    "promise-inflight": "~1.0.1",
     "read": "~1.0.7",
     "read-cmd-shim": "~1.0.1",
     "read-installed": "~4.0.3",
